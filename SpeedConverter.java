@@ -1,4 +1,5 @@
 /****************************************************CODE EXERCISE 1: SPEED CONVERTER *****************************************************************
+Description Exercise:
 First method:     Write a method called toMilesPerHur that has 1 parameter of type double with the name kiloMetersPerHour. 
                   This method needs to return value of the calculation type long.
                   If the parameter of the killometerPerHour is less than 0, the method  toMilesPerHours needs to return  -1 to indicatean invalid value. 
