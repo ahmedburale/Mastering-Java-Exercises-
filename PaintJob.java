@@ -1,4 +1,4 @@
-/********************************************************************CODING EXERCISE 27: PAINT JOB**********************************************************************
+/******************************************************************CODING EXERCISE 28: PAINT JOB**********************************************************************
 DESCRIPTION EXERCISE:
 Bob is a wall painter and he needs your help. You have to write a program that helps Bob calculate how many buckets of paint he needs to buy before going to work. Bob might also have some extra buckets at home. He also knows the area that he can cover with one bucket of paint.
 
