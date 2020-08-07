@@ -19,44 +19,44 @@ DESCRIPTION EXERCISE:
     - In total,  you've to write 5 methods and 2 constructors.
 ********************************************************************************CODE***********************************************************************************/
 public class Wall {
-  private double width;
-  private double height;
-  // constructors 
-  class Wall(){
-  }
-
-  class Wall(double width, double height) { 
-    this.width = width;
-    this.height = height;
-    if(this.width < 0 && this.height < 0) {
-      return (this.width = 0 && this.heght = 0);  
+    // write your code here
+    private double width;
+    private double height;
+ //constructors 
+    public Wall() {}
+ 
+    public Wall(double width, double height) {
+        setWidth(width);
+        setHeight(height);
     } 
-  }// end of constructors
   
-  // methods(instance methods) - getters and setters
-  public void getWidth(){
-    return width;
-  }
-  
-  publi void getHeigth(){
-    return height;
-  }
-  
-  public void setWidth(double width){
-    if(this.width < 0){
-      return 0;
+  // instance methods
+ 
+    public double getWidth() {
+        return width;
     }
-  }
-  
-  public void setHeight(double height) {
-    if(this.height < 0){
-      return 0;
+ 
+    public void setWidth(double width) {
+        if(width < 0){
+            this.width = 0;
+        }else {
+            this.width = width;
+        }
     }
-  }
-  
-  public void getArea(){
-    return this.width * this.height;
-  }
-  
-
-}// end of the Wall class
+ 
+    public double getHeight() {
+        return height;
+    }
+ 
+    public void setHeight(double height) {
+        if (height < 0) {
+            this.height = 0;
+        }else {
+            this.height = height;
+        }
+    }
+ 
+    public double getArea(){
+        return this.getWidth() * this.getHeight();
+    }
+}// end of Wall class
