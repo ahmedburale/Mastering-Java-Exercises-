@@ -1,4 +1,4 @@
-/********************************************************************************************************************************************
+/************************************CODING EXERCISE 32: POINT*****************************************
 CODE DESCRIPTION EXERCISE:
 You have to represent a point in 2D space. Write a class with the name Point. The class needs two fields (instance variables) with name x and y of type int.
 The class needs to have two constructors. The first constructor does not have any parameters (no-arg constructor). The second constructor has parameters x and y of type int and it needs to initialize the fields.
@@ -36,7 +36,7 @@ NOTE:
 * Try to avoid duplicated code.
 * All methods should be defined as public NOT public static.
 * In total, you have to write 7 methods.
-********************************************************************************************************************************************/
+*****************************************************************************************************/
 public class Point {
     // write your code here
     private int x;
