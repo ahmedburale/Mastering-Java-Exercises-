@@ -36,7 +36,7 @@ Method1:
         - The method numberToWords, getDigitCount, reverse should be defined as public static 
         - In total, you've 3 methods
 *********************************************************CODE*****************************************************************/
-public class NumberToWords {
+public class NumberTwoWords {
     
     public static void main(String [] args) {
     
