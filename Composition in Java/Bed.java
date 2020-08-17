@@ -1,0 +1,4 @@
+publi class Bed {
+
+
+}
