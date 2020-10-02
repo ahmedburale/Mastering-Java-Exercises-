@@ -69,4 +69,37 @@ class Holden extends Car {
   public Holden(int Cylinders, String name){
     super(cylinders, name);
   }
+  @Override 
+  public String startEngine(){
+    return getClass().getSimpleName() + " ->  startEngine()";
+  }
+  @Override 
+  public String accelerate(){
+    return getClass().getSimpleName() + " -> accelerate()";
+  }
+  @Override
+  publi String brak(){
+    return getClass().getSimpleName(0 + " -> brake()";
+  }
 }
+/********************************************************************************************************************************************************/
+class Ford extends Movie{
+  public Ford(int cylinders, String name){
+    super(cylinders, name);
+  }
+  @Override 
+  public String startEngine(){
+    return "Ford -> startEngin()";
+  }
+  @Override 
+  public String accelerate(){
+    return "Ford -> accelerate()";
+  }
+  @Override
+  public String brake(){
+    return "Ford -> brake()";
+  }
+}  
+/*******************************************************************************************************************************************************/
+                                    
+                                   
