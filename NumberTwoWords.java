@@ -42,7 +42,7 @@ public class NumberTwoWords {
     
       System.out.println(getDigitCount(0));
       System.out.println(reverse(1234));
-      System.out.println(numberToWords(123));
+      (numberToWords(123));
     
     }
     // write your code here
@@ -61,34 +61,34 @@ public class NumberTwoWords {
                 
                 switch (lastDigit) {
                        case 0:
-                           System.out.println("Zero");
+                           System.out.printf("Zero");
                            break;
                        case 1:
-                           System.out.println("One");
+                           System.out.printf("One");
                            break;
                        case 2:
-                           System.out.println("Two");
+                           System.out.printf("Two");
                            break;
                        case 3:
-                           System.out.println("Three");
+                           System.out.printf("Three");
                            break;
                        case 4:
-                           System.out.println("Four");
+                           System.out.printf("Four");
                            break;
                        case 5:
-                           System.out.println("Five");
+                           System.out.printf("Five");
                            break;
                        case 6:
-                           System.out.println("Six");
+                           System.out.printf("Six");
                            break;
                        case 7:
-                           System.out.println("Seven");
+                           System.out.printf("Seven");
                            break;
                        case 8:
-                           System.out.println("Eight");
+                           System.out.printf("Eight");
                            break;
                        case 9:
-                           System.out.println("Nine");
+                           System.out.printf("Nine");
                            break;
                        default:
                            System.out.println();
